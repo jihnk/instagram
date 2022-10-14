@@ -6,6 +6,7 @@ import PostList from '@modules/post/PostList';
 
 const Home: NextPage = () => {
   const login = true;
+
   if (login) {
     return (
       <>
@@ -24,7 +25,4 @@ export const getServerSideProps = getApolloServerSideProps(async client => {
   // await client.query({
   //   query: GET_DIE
   // });
-  return {
-    props: {}
-  };
 });

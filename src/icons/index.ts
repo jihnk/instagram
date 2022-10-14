@@ -10,3 +10,4 @@ export { default as Bookmark } from './Bookmark';
 export { default as Smile } from './Smile';
 export { default as Files } from './Files';
 export { default as Comment } from './Comment';
+export { default as Gear } from './Gear';
