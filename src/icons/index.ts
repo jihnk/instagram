@@ -5,3 +5,8 @@ export { default as House } from './House';
 export { default as Logo } from './Logo';
 export { default as Message } from './Message';
 export { default as Search } from './Search';
+export { default as Dots } from './Dots';
+export { default as Bookmark } from './Bookmark';
+export { default as Smile } from './Smile';
+export { default as Files } from './Files';
+export { default as Comment } from './Comment';

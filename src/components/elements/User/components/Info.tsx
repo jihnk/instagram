@@ -20,7 +20,7 @@ interface StatisticsProps extends HTMLAttributes<HTMLDivElement> {
   value: string | number;
 }
 
-const Statistics = ({
+export const Statistics = ({
   title,
   value,
   ...restProps
